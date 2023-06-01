@@ -12,6 +12,8 @@ package-lock.json
 
 
 node_modules/
+**/logs/
+
 dist
 dist-ssr
 *.local
