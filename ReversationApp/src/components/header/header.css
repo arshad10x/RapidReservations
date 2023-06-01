@@ -21,6 +21,7 @@
   display: flex;
   gap: 40px;
   margin-bottom: 50px;
+  cursor: pointer;
 }
 
 .headerListItem {
@@ -45,6 +46,16 @@
   border: none;
   font-weight: 500;
   padding: 10px;
+  cursor: pointer;
+}
+
+.headerBtn2 {
+  background-color: #0071c2;
+  color: #fff;
+  border: none;
+  font-weight: 500;
+  margin-right: -40px;
+  padding: 10px 25px;
   cursor: pointer;
 }
 
@@ -80,7 +91,7 @@
 }
 
 .headerSearchText {
-  color: lightgrey;
+  color: #808080;
   cursor: pointer;
 }
 
