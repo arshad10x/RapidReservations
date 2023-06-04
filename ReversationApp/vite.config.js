@@ -6,6 +6,7 @@ export default defineConfig({
   build: {
     rollupOptions: {
       external: ["date-fns"],
+      external: ["react-date-range"],
       // ...other rollup options
     },
   },
