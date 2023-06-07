@@ -1,0 +1,10 @@
+# Site settings
+title: My Jekyll Site
+description: A brief description of your site
+url: "https://github.com/arshad10x/RapidReservations" # The base URL for your site
+
+# Build settings
+markdown: kramdown # The Markdown converter to use
+
+# Deployment settings
+destination: "public" # The output directory for the generated site
