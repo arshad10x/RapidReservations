@@ -11,8 +11,8 @@ import "./header.css";
 import React, { useState } from "react";
 import { DateRange } from "react-date-range";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import "/react-date-range/dist/styles.css"; // main css file
-import "/react-date-range/dist/theme/default.css"; // theme css file.
+// import "/react-date-range/dist/styles.css"; // main css file
+// import "/react-date-range/dist/theme/default.css"; // theme css file.
 import { format } from "date-fns";
 import { useNavigate } from "react-router-dom";
 
@@ -104,7 +104,7 @@ const Header = ({ type }) => {
                   date[0].endDate,
                   "MM/dd/yyyy"
                 )} `}</span>
-                {openDate && (
+                {/* {openDate && (
                   <DateRange
                     editableDateInputs={true}
                     onChange={(item) => setDate([item.selection])}
@@ -113,7 +113,7 @@ const Header = ({ type }) => {
                     minDate={new Date()}
                     className="date"
                   />
-                )}
+                )} */}
               </div>
               <div className="headerSearchItem">
                 <FontAwesomeIcon icon={faPerson} className="headerIcon" />
