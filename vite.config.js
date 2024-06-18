@@ -5,8 +5,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ["date-fns"],
-      external: ["react-date-range"],
+      external: ["date-fns", "react-date-range"],
       // ...other rollup options
     },
   },
